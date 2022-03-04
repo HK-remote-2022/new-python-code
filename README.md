@@ -1,3 +1,3 @@
 # new-python-code
-ini ada lah projek pertama saya Phyton
+ini adalah projek pertama saya di Phyton
 Horeeee
