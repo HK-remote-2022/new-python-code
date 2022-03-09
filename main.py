@@ -14,7 +14,7 @@ print('hendra menjawab,"oke bu, Hendra pulang pagi ya"')
 print('ibu berkata, "bagus, mendingan ga usah pulang aja ya!!"')
 print('hendra menjawab,"iya deh bu, liat nanti aja ya"')
 
-#Percabangan
+# Percabangan
 
 jam_pulang_main = 8
 
