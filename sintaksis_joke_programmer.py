@@ -16,7 +16,7 @@ print('hendra menjawab,"iya deh bu, liat nanti aja ya"')
 
 # Percabangan
 
-jam_pulang_main = 8
+jam_pulang_main = 11
 
 if jam_pulang_main < 9:
     print("Hendra cek jam berapa sekarang, ternyata masih bisa pulang sebelum jam 9")
