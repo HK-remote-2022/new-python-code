@@ -15,4 +15,3 @@ daftar_buku = ["Bulughul Maram", "Syarah Akidah Alusunnah Wal Jamaah", "Riyadus 
 del daftar_buku[0::2] #START:END:STEP
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
-
