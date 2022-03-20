@@ -42,7 +42,7 @@ daftar_buku_baru = daftar_buku[1::2] #START STOP STEP
 for i in range(0, len(daftar_buku_baru)):
     print(daftar_buku_baru[i])
 
-print('\nMembuat List Baru Dengan Comprehension urutan genap')
+print('\nMembuat List Baru Dengan Comprehension buang ujung')
 daftar_buku = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 daftar_buku_baru = daftar_buku[1:-1:2] #START STOP STEP
 for i in range(0, len(daftar_buku_baru)):
