@@ -38,6 +38,12 @@ for i in range(0, len(daftar_buku_baru)):
 
 print('\nMembuat List Baru Dengan Comprehension Genap')
 daftar_buku = ["1. Bulughul Maram", "2. Syarah Akidah Alusunnah Wal Jamaah", "3. Riyadus Sholihin", "4. Sirah Nabawiyah"]
-daftar_buku_baru = daftar_buku[1::2]
+daftar_buku_baru = daftar_buku[1::2] #START STOP STEP
+for i in range(0, len(daftar_buku_baru)):
+    print(daftar_buku_baru[i])
+
+print('\nMembuat List Baru Dengan Comprehension urutan genap')
+daftar_buku = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+daftar_buku_baru = daftar_buku[1:-1:2] #START STOP STEP
 for i in range(0, len(daftar_buku_baru)):
     print(daftar_buku_baru[i])
