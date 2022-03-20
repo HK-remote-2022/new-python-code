@@ -29,3 +29,12 @@ print (user["address"]["street"])
 print (user["address"]["geo"])
 print (user["address"]["geo"]["lat"])
 print (user["address"]["geo"]["lng"])
+
+print(user)
+print(type(user))
+print('\nUbah Dict ke Json')
+
+import json
+result = json.dumps(user)
+print(type(result))
+print(result)
