@@ -2,7 +2,7 @@
 Dictionary didalam Dictionary / Json didalam Json
 """
 
-user = {
+users = {
     "id": 1,
     "name": "Leanne Graham",
     "username": "Bret",
@@ -19,22 +19,26 @@ user = {
     }
 }
 
-print(user)
-print(user["id"])
-print(user["name"])
-print(user["username"])
-print(user["email"])
-print (user["address"])
-print (user["address"]["street"])
-print (user["address"]["geo"])
-print (user["address"]["geo"]["lat"])
-print (user["address"]["geo"]["lng"])
+print(users)
+print(users["id"])
+print(users["name"])
+print(users["username"])
+print(users["email"])
+print (users["address"])
+print (users["address"]["street"])
+print (users["address"]["geo"])
+print (users["address"]["geo"]["lat"])
+print (users["address"]["geo"]["lng"])
 
-print(user)
-print(type(user))
+print(users)
+print(type(users))
 print('\nUbah Dict ke Json')
 
 import json
-result = json.dumps(user)
+result = json.dumps(users)
 print(type(result))
 print(result)
+
+# merubah strings json ke file
+with open('result.json', 'w') as file:
+    json.dump(users, file)
